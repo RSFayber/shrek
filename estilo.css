@@ -1,0 +1,98 @@
+*{margin: 0;}
+body {
+background-color: #556B2F;
+}
+header, img{
+    width: 100%;
+    height: 300px;
+    
+}
+nav {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(62, 114, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin-right: 40px;
+}
+h1 {
+    color: black;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    color: black;
+}
+h2 {
+    color: white;
+    font-size: large;
+    background-color: darkgreen;
+}
+#tudo {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#intro {
+    background-color: gray;
+}
+#pag-origem {
+
+}
+.classico {
+    width: 100px;
+    height: 180px;
+}
+.historia {
+    width: 120px;
+    height: 200px;
+}
+
+#pag-outrasparticipacoes {
+    background-color: gray;
+    border-style: groove;
+    display: flex;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: "a b c";
+}
+
+#pag-outrasparticipacoes h2{
+    font-size: 30px;
+    color: darkgreen;
+    border-style: groove;
+    border-spacing: 20px;
+}
+.tabela {
+    padding: 0px;
+    justify-content: right;
+    align-items: right;
+    background-color: gray;
+    border: 20px;
+}
+#loja {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 10%;
+}
+#lojaimgs {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+#textloja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+footer {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
